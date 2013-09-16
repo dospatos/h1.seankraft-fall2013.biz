@@ -1,11 +1,12 @@
 <?php
-/**
+/*
  * Created by JetBrains PhpStorm.
  * User: skraft
  * Date: 9/6/13
  * Time: 3:12 PM
- * To change this template use File | Settings | File Templates.
+ * Create by Sean Kraft for CSCI-E15 Fall 2013
  */
+?>
 <!DOCTYPE html>
 <html>
 <head>
