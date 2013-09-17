@@ -54,7 +54,7 @@ $_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
         mysql_select_db("seankraf_rivers") or die(mysql_error());
         $data = mysql_query("SELECT * FROM river")
         or die(mysql_error());
-        Print "<table cellpadding=3 style='border:1px solid black;border-collapse:collapse'>";
+        Print "<table style='border:1px solid black;border-collapse:collapse'>";
         while($info = mysql_fetch_array( $data ))
         {
             Print "<tr style='border:1px solid black'>";
