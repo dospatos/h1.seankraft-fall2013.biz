@@ -30,14 +30,14 @@ $_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
     </nav>
 
     <section>
-        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. I live in Beacon, NY and commute to Manhattan by train for work. My main interests are whitewater kayaking, skiing (both alpine and cross country), traveling, and cooking.
+        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. I live in Beacon, NY and commute to Manhattan by train for work. My main interests are whitewater kayaking, skiing (both alpine and cross country), traveling, and cooking.</p>
         <figure style="float:right;" >
             <img src="images/iceland_dog.jpg" alt="Dog on the fence" width="182" height="143"/>
             <figcaption style="font-style:italic">What will a dog think of next?</figcaption>
         </figure>
 
 
-        </p>
+
         <p>
         I'm using the PhpStorm as my editor for this project. It's a 30 day trial, so I may or may not continue to use it. I'm also using Textpad.
         I do software development on Windows for hospitals and corporations. As a result, I'm not that experienced with open source. Taking this class is part of my plan to learn more about it.
