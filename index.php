@@ -49,7 +49,7 @@ $_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
         <header style="font-weight:bold;border:1px;">A list of whitewater rivers stored in a MySQL database</header>
         <?php
         // Connects to your Database
-        mysql_connect("localhost", "seankraf_appuser", "Testit123") or die(mysql_error());
+        mysql_connect("localhost", "seankraf_appuser", "jst4cla$$") or die(mysql_error());
         mysql_select_db("seankraf_rivers") or die(mysql_error());
         $data = mysql_query("SELECT * FROM river")
         or die(mysql_error());
