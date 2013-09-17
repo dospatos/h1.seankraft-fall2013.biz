@@ -43,10 +43,10 @@ $_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
 
     <section>
         <header style="font-weight:bold;border:1px;">Here is a section for some sample PHP code</header>
-        <div>HTTP_USER_AGENT: <?php echo $_SERVER['HTTP_USER_AGENT'];?></div>
-        <div>Page Hit Count: <?php echo $_SESSION['HIT_COUNT'];?></div>
+        <div>HTTP_USER_AGENT(testing $_SERVER): <?php echo $_SERVER['HTTP_USER_AGENT'];?></div>
+        <div>Page Hit Count(testing $_SESSION): <?php echo $_SESSION['HIT_COUNT'];?></div>
         <br/>
-        <header style="font-weight:bold;border:1px;">A list of rivers stored in a MySQL database</header>
+        <header style="font-weight:bold;border:1px;">A list of whitewater rivers stored in a MySQL database</header>
         <?php
         // Connects to your Database
         mysql_connect("localhost", "seankraf_appuser", "Testit123") or die(mysql_error());
