@@ -30,14 +30,15 @@ $_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
     </nav>
 
     <section>
-        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. I live in Beacon, NY and commute to Manhattan by train. My main interests are
-        <img src="images/iceland_dog.jpg" style="float:right" alt="Dog on a fence" width="182" height="143"/>
+        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. I live in Beacon, NY and commute to Manhattan by train for work. My main interests are
+        <img src="images/iceland_dog.jpg" style="float:right;padding:11px;" alt="Dog on a fence" width="182" height="143"/>
         whitewater kayaking, skiing (both alpine and cross country), traveling, and cooking.
 
         </p>
         <p>
-        I'm using the PhpStorm as my editor for this project, although it's a 30 day trial and I may or may not continue to use it. I'm also using Textpad.
-        I do software development mainly on Windows for hospitals and corporations, so I'm not that experienced with open source. Taking this class is part of my plan to learn more.
+        I'm using the PhpStorm as my editor for this project. It's a 30 day trial, so I may or may not continue to use it. I'm also using Textpad.
+        I do software development on Windows for hospitals and corporations. As a result, I'm not that experienced with open source. Taking this class is part of my plan to learn more about it.
+        I added some PHP tests below because I wanted to see how hard it would be to connect to a database and read session variables, turns out it's easy enough.
         </p>
     </section>
 
