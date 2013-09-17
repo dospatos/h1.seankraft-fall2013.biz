@@ -19,7 +19,7 @@
 
 <article style="width:700px">
     <header>
-        <h1>Sean Kraft's CSCI E-15</h1>
+        <h2>Sean Kraft CSCI E-15</h2>
     </header>
     <nav>
         <a href="https://github.com/dospatos/h1.seankraft-fall2013.biz">Git.com</a> |
