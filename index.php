@@ -1,4 +1,5 @@
-<?php
+<?php session_start();
+$_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
 /*
  * Created by JetBrains PhpStorm.
  * User: skraft
@@ -29,13 +30,21 @@
     </nav>
 
     <section>
-        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. My main interests are
+        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. I live in Beacon, NY and commute to Manhattan by train. My main interests are
+        <img src="images/iceland_dog.jpg" style="float:right" alt="Dog on a fence" width="182" height="143"/>
         whitewater kayaking, skiing (both alpine and cross country), traveling, and cooking.
+
         </p>
         <p>
         I'm using the PhpStorm as my editor for this project, although it's a 30 day trial and I may or may not continue to use it. I'm also using Textpad.
         I do software development mainly on Windows for hospitals and corporations, so I'm not that experienced with open source. Taking this class is part of my plan to learn more.
         </p>
+    </section>
+
+    <section>
+        <header>Here is a section for some sample PHP code</header>
+        <div>HTTP_USER_AGENT: <?php echo $_SERVER['HTTP_USER_AGENT'];?></div>
+        <div>Page Hit Count: <?php echo $_SESSION['HIT_COUNT'];?></div>
     </section>
 
     <footer>
