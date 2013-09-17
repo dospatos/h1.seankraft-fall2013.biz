@@ -30,9 +30,12 @@ $_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
     </nav>
 
     <section>
-        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. I live in Beacon, NY and commute to Manhattan by train for work. My main interests are
-        <img src="images/iceland_dog.jpg" style="float:right;padding:11px;" alt="Dog on a fence" width="182" height="143"/>
-        whitewater kayaking, skiing (both alpine and cross country), traveling, and cooking.
+        <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. I live in Beacon, NY and commute to Manhattan by train for work. My main interests are whitewater kayaking, skiing (both alpine and cross country), traveling, and cooking.
+        <figure style="float:right;" >
+            <img src="images/iceland_dog.jpg" alt="Dog on a fence" width="182" height="143"/>
+            <figcaption style="font-style:italic">What will a dog think of next?</figcaption>
+        </figure>
+
 
         </p>
         <p>
