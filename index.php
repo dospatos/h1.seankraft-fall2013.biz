@@ -31,8 +31,10 @@
     <section>
         <p>My name is Sean Kraft. I'm 40 years old and working as a software developer. My main interests are
         whitewater kayaking, skiing (both alpine and cross country), traveling, and cooking.
-
-        I'm using the PhpStorm as my editor for this project, although it's a 30 day trial and I may or may not continue to use it.
+        </p>
+        <p>
+        I'm using the PhpStorm as my editor for this project, although it's a 30 day trial and I may or may not continue to use it. I'm also using Textpad.
+        I do software development mainly on Windows for hospitals and corporations, so I'm not that experienced with open source. Taking this class is part of my plan to learn more.
         </p>
     </section>
 
