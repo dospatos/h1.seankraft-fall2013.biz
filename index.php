@@ -12,6 +12,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Sean Kraft's CSCI E-15 Web Page</title>
+<link type="text/css" rel="stylesheet" href="basic-minimal.css">
 </head>
 
 <body>
