@@ -44,7 +44,7 @@ $_SESSION['HIT_COUNT'] = $_SESSION['HIT_COUNT'] + 1;
     </section>
 
     <section>
-        <header style="font-weight:bold;border:1px;">Here is a section for test PHP code</header>
+        <header style="font-weight:bold;border:1px;">Section for test PHP code</header>
         <div>HTTP_USER_AGENT(testing $_SERVER): <?php echo $_SERVER['HTTP_USER_AGENT'];?></div>
         <div>Page Hit Count(testing $_SESSION): <?php echo $_SESSION['HIT_COUNT'];?></div>
         <br/>
